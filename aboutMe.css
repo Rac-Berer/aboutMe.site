@@ -1,3 +1,12 @@
+.purple-cursor {
+    cursor: url("https://i.postimg.cc/kGmKnB6b/Star.png"), auto;
+}
+
+.teal-cursor {
+    cursor: url("https://i.postimg.cc/mkyMhBC6/hover-Star.png"), auto;
+}
+
+
 #intro {
     margin: 0 auto;
     width: 64%;
@@ -48,10 +57,52 @@
     margin-top: 10px;
 }
 
+#contact {
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.95;
+    color: purple;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#Top {
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.95;
+    color: teal;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
 body {
     background-image: url("https://i.postimg.cc/3wry9ZKc/lhs.jpg");
     background-size: cover;
     background-attachment: stretch;
     background-repeat: no-repeat;
     ;
+}
+
+body.waiting {
+    cursor: url('https://i.postimg.cc/LXtKqbXb/smstar.gif'), wait; 
+}
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: teal;
+}
+
+a:hover {
+    background-color: purple;
+    color: teal;
+    
 }
