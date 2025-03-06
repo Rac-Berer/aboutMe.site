@@ -1,0 +1,57 @@
+#intro {
+    margin: 0 auto;
+    width: 64%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.95;
+    color: purple;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#skills {
+    margin: 0 auto;
+    width: 40%;
+    text-align: left;
+    background-color: black;
+    opacity: 0.95;
+    color: teal;
+    padding: 10px;
+    padding-left: 25%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#experience {
+    margin: 0 auto;
+    width: 50%;
+    text-align: left;
+    background-color: black;
+    opacity: 0.95;
+    color: purple;
+    padding: 10px;
+    padding-left: 15%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#education {
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.95;
+    color: teal;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url("https://i.postimg.cc/3wry9ZKc/lhs.jpg");
+    background-size: cover;
+    background-attachment: stretch;
+    background-repeat: no-repeat;
+    ;
+}
