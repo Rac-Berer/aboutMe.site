@@ -1,9 +1,9 @@
 .purple-cursor {
-    cursor: url("https://i.postimg.cc/kGmKnB6b/Star.png"), auto;
+    cursor: url("https://i.postimg.cc/j2dPt3ZP/Star.png"), auto;
 }
 
 .teal-cursor {
-    cursor: url("https://i.postimg.cc/mkyMhBC6/hover-Star.png"), auto;
+    cursor: url("https://i.postimg.cc/BbYD65Vy/hover-Star.png"), auto;
 }
 
 
@@ -57,13 +57,26 @@
     margin-top: 10px;
 }
 
+#interests {
+    margin: 0 auto;
+    width: 50%;
+    text-align: left;
+    background-color: black;
+    opacity: 0.95;
+    color: purple;
+    padding: 10px;
+    padding-left: 15%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
 #contact {
     margin: 0 auto;
     width: 65%;
     text-align: center;
     background-color: black;
     opacity: 0.95;
-    color: purple;
+    color: teal;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
