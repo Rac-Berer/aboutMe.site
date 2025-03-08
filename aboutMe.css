@@ -1,22 +1,54 @@
+/* Add mouse cursor styles */
 .purple-cursor {
-    cursor: url("https://i.postimg.cc/j2dPt3ZP/Star.png"), auto;
+    cursor: url("https://i.postimg.cc/vHDP6ng7/purpstar.png"), auto;
 }
 
 .teal-cursor {
-    cursor: url("https://i.postimg.cc/BbYD65Vy/hover-Star.png"), auto;
+    cursor: url("https://i.postimg.cc/nzH2V9fD/tealStar.png"), auto;
+}
+
+.custom-click-cursor {
+    cursor: url('https://i.postimg.cc/yNCn5rfn/hover-Star.png'), auto;
 }
 
 
-#intro {
+/* Add sections to the page */
+#menu {
     margin: 0 auto;
-    width: 64%;
+    width: 65%;
     text-align: center;
     background-color: black;
-    opacity: 0.95;
+    opacity: 0.85;
+    color: teal;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-width: 2px;
+    border-color: gray;
+    border-style:  groove;
+}
+
+#menu:hover {
+    opacity: 1.0;
+}
+
+#intro {
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.85;
     color: purple;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: groove;
+}
+
+#intro:hover {
+    opacity: 1.0;
 }
 
 #skills {
@@ -24,12 +56,19 @@
     width: 40%;
     text-align: left;
     background-color: black;
-    opacity: 0.95;
+    opacity: 0.85;
     color: teal;
     padding: 10px;
     padding-left: 25%;
     border-radius: 10px;
     margin-top: 10px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: groove;
+}
+
+#skills:hover {
+    opacity: 1.0;
 }
 
 #experience {
@@ -37,12 +76,19 @@
     width: 50%;
     text-align: left;
     background-color: black;
-    opacity: 0.95;
+    opacity: 0.85;
     color: purple;
     padding: 10px;
     padding-left: 15%;
     border-radius: 10px;
     margin-top: 10px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: groove;
+}
+
+#experience:hover {
+    opacity: 1.0;
 }
 
 #education {
@@ -50,11 +96,18 @@
     width: 65%;
     text-align: center;
     background-color: black;
-    opacity: 0.95;
+    opacity: 0.85;
     color: teal;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: groove;
+}
+
+#education:hover {
+    opacity: 1.0;
 }
 
 #interests {
@@ -62,12 +115,19 @@
     width: 50%;
     text-align: left;
     background-color: black;
-    opacity: 0.95;
+    opacity: 0.85;
     color: purple;
     padding: 10px;
     padding-left: 15%;
     border-radius: 10px;
     margin-top: 10px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: groove;
+}
+
+#interests:hover {
+    opacity: 1.0;
 }
 
 #contact {
@@ -75,11 +135,18 @@
     width: 65%;
     text-align: center;
     background-color: black;
-    opacity: 0.95;
+    opacity: 0.85;
     color: teal;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: groove;
+}
+
+#contact:hover {
+    opacity: 1.0;
 }
 
 #Top {
@@ -87,35 +154,90 @@
     width: 65%;
     text-align: center;
     background-color: black;
-    opacity: 0.95;
-    color: teal;
+    opacity: 0.85;
+    color: purple;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: groove;
+}
+
+#Top:hover {
+    opacity: 1.0;
 }
 
 body {
     background-image: url("https://i.postimg.cc/3wry9ZKc/lhs.jpg");
     background-size: cover;
-    background-attachment: stretch;
     background-repeat: no-repeat;
     ;
 }
 
-body.waiting {
-    cursor: url('https://i.postimg.cc/LXtKqbXb/smstar.gif'), wait; 
-}
 
 a:link {
     color: purple;
 }
 
 a:visited {
-    color: teal;
+    color: gray;
 }
 
 a:hover {
     background-color: purple;
     color: teal;
+    
+}
+
+/* Media Queries for mobile devices */
+@media (max-width: 768px) {
+    #menu {
+        width: 95%;
+        opacity: 1; 
+    }
+
+    
+    #intro {
+        width: 95%;
+        opacity: 1; 
+    }
+
+    #skills {
+        width: 95%;
+        opacity: 1; 
+    }
+
+    #experience {
+        width: 95%;
+        opacity: 1; 
+    }
+
+    #education {
+        width: 95%;
+        opacity: 1; 
+    }
+
+    #interests {
+        width: 95%;
+        opacity: 1; 
+    }
+
+    #contact {
+        width: 95%;
+        opacity: 1; 
+    }
+
+    #Top {
+        width: 95%;
+        opacity: 1; 
+    }
+
+    body {
+        background-image: url("https://i.postimg.cc/3wry9ZKc/lhs.jpg");
+        background-size: cover;
+        background-attachment: stretch;
+        background-repeat: no-repeat;
+    }
     
 }
