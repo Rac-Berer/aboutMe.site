@@ -7,10 +7,22 @@
     cursor: url("https://i.postimg.cc/nzH2V9fD/tealStar.png"), auto;
 }
 
-.custom-click-cursor {
+#customLink {
     cursor: url('https://i.postimg.cc/yNCn5rfn/hover-Star.png'), auto;
 }
 
+.inlineHeader, .inlineLink {
+    display: inline-block;
+}
+
+#removeUnderline {
+    text-decoration: none;
+}
+
+#removeUnderline:hover {
+    text-decoration: underline;
+    cursor: url('https://i.postimg.cc/yNCn5rfn/hover-Star.png'), auto;
+}
 
 /* Add sections to the page */
 #menu {
@@ -165,6 +177,25 @@
 }
 
 #Top:hover {
+    opacity: 1.0;
+}
+
+#feedback {
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+    background-color: black;
+    opacity: 0.85;
+    color: teal;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-width: 2px;
+    border-color: gray;
+    border-style: groove;
+}
+
+#feedback:hover {
     opacity: 1.0;
 }
 
