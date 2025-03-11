@@ -7,206 +7,103 @@
     cursor: url("https://i.postimg.cc/nzH2V9fD/tealStar.png"), auto;
 }
 
-#customLink {
+#hover-cursor {
     cursor: url('https://i.postimg.cc/yNCn5rfn/hover-Star.png'), auto;
 }
 
+/* Make specific header text inline */
 .inlineHeader, .inlineLink {
     display: inline-block;
 }
 
+/* Remove the underline from the link */
 #removeUnderline {
     text-decoration: none;
 }
 
+/* Add hover effect to the link */
 #removeUnderline:hover {
     text-decoration: underline;
     cursor: url('https://i.postimg.cc/yNCn5rfn/hover-Star.png'), auto;
 }
 
-/* Add sections to the page */
-#menu {
+/* Common styles for sections */
+.section {
     margin: 0 auto;
-    width: 65%;
     text-align: center;
     background-color: black;
     opacity: 0.85;
-    color: teal;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
     border-width: 2px;
     border-color: gray;
-    border-style:  groove;
+    border-style: groove;
 }
 
-#menu:hover {
+.section:hover {
     opacity: 1.0;
+}
+
+#menu {
+    width: 65%;
+    color: teal;
 }
 
 #intro {
-    margin: 0 auto;
     width: 65%;
-    text-align: center;
-    background-color: black;
-    opacity: 0.85;
     color: purple;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    border-width: 2px;
-    border-color: gray;
-    border-style: groove;
-}
-
-#intro:hover {
-    opacity: 1.0;
 }
 
 #skills {
-    margin: 0 auto;
     width: 40%;
     text-align: left;
-    background-color: black;
-    opacity: 0.85;
-    color: teal;
-    padding: 10px;
     padding-left: 25%;
-    border-radius: 10px;
-    margin-top: 10px;
-    border-width: 2px;
-    border-color: gray;
-    border-style: groove;
-}
-
-#skills:hover {
-    opacity: 1.0;
+    color: teal;
 }
 
 #experience {
-    margin: 0 auto;
     width: 50%;
     text-align: left;
-    background-color: black;
-    opacity: 0.85;
-    color: purple;
-    padding: 10px;
     padding-left: 15%;
-    border-radius: 10px;
-    margin-top: 10px;
-    border-width: 2px;
-    border-color: gray;
-    border-style: groove;
-}
-
-#experience:hover {
-    opacity: 1.0;
+    color: purple;
 }
 
 #education {
-    margin: 0 auto;
     width: 65%;
-    text-align: center;
-    background-color: black;
-    opacity: 0.85;
     color: teal;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    border-width: 2px;
-    border-color: gray;
-    border-style: groove;
-}
-
-#education:hover {
-    opacity: 1.0;
 }
 
 #interests {
-    margin: 0 auto;
     width: 50%;
     text-align: left;
-    background-color: black;
-    opacity: 0.85;
-    color: purple;
-    padding: 10px;
     padding-left: 15%;
-    border-radius: 10px;
-    margin-top: 10px;
-    border-width: 2px;
-    border-color: gray;
-    border-style: groove;
-}
-
-#interests:hover {
-    opacity: 1.0;
+    color: purple;
 }
 
 #contact {
-    margin: 0 auto;
     width: 65%;
-    text-align: center;
-    background-color: black;
-    opacity: 0.85;
     color: teal;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    border-width: 2px;
-    border-color: gray;
-    border-style: groove;
-}
-
-#contact:hover {
-    opacity: 1.0;
 }
 
 #Top {
-    margin: 0 auto;
     width: 65%;
-    text-align: center;
-    background-color: black;
-    opacity: 0.85;
     color: purple;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    border-width: 2px;
-    border-color: gray;
-    border-style: groove;
-}
-
-#Top:hover {
-    opacity: 1.0;
 }
 
 #feedback {
-    margin: 0 auto;
     width: 65%;
-    text-align: center;
-    background-color: black;
-    opacity: 0.85;
     color: teal;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    border-width: 2px;
-    border-color: gray;
-    border-style: groove;
 }
 
-#feedback:hover {
-    opacity: 1.0;
-}
-
+/* Body background styles */
 body {
     background-image: url("https://i.postimg.cc/3wry9ZKc/lhs.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    ;
 }
 
-
+/* Link styles */
 a:link {
     color: purple;
 }
@@ -218,57 +115,5 @@ a:visited {
 a:hover {
     background-color: purple;
     color: teal;
-    
 }
 
-/* Media Queries for mobile devices */
-@media (max-width: 768px) {
-    #menu {
-        width: 95%;
-        opacity: 1; 
-    }
-
-    
-    #intro {
-        width: 95%;
-        opacity: 1; 
-    }
-
-    #skills {
-        width: 95%;
-        opacity: 1; 
-    }
-
-    #experience {
-        width: 95%;
-        opacity: 1; 
-    }
-
-    #education {
-        width: 95%;
-        opacity: 1; 
-    }
-
-    #interests {
-        width: 95%;
-        opacity: 1; 
-    }
-
-    #contact {
-        width: 95%;
-        opacity: 1; 
-    }
-
-    #Top {
-        width: 95%;
-        opacity: 1; 
-    }
-
-    body {
-        background-image: url("https://i.postimg.cc/3wry9ZKc/lhs.jpg");
-        background-size: cover;
-        background-attachment: stretch;
-        background-repeat: no-repeat;
-    }
-    
-}

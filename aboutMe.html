@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- This meta tag sets the character encoding for the document to UTF-8. -->
         <meta charset="UTF-8">
+        <!-- This title tag sets the title of the document to "About Me". -->
         <title>About Me</title>
+        <!-- This link tag links the CSS file "aboutMe.css" to the HTML document. -->
         <link rel="stylesheet" href="aboutMe.css">
+        <!-- This script tag links the JavaScript file "aboutMe.js" to the HTML document. -->
         <script src="aboutMe.js"></script>
     </head>
     <body>
+        <!--This div tag is setting the cursor to purple-->
         <div class="purple-cursor">
-            <div id="menu">
-                <p>| 
-                    <a href="#intro" id="customLink">About Me</a> | 
-                    <a href="#skills" id="customLink">Skills</a> | 
-                    <a href="#experience" id="customLink">Experience</a> | 
-                    <a href="#education" id="customLink">Education</a> | 
-                    <a href="#interests" id="customLink">Interests</a> | 
-                    <a href="#contact" id="customLink">Contact</a> |
+            <!--This div tag is setting up the menu-->
+            <div id="menu" class="section">
+                <!--This anchor tag is linking to the "aboutMe.html" file-->
+                <p>| <a href="#intro" id="hover-cursor">About Me</a> | 
+                    <a href="#skills" id="hover-cursor">Skills</a> | 
+                    <a href="#experience" id="hover-cursor">Experience</a> | 
+                    <a href="#education" id="hover-cursor">Education</a> | 
+                    <a href="#interests" id="hover-cursor">Interests</a> | 
+                    <a href="#contact" id="hover-cursor">Contact</a> |
                 </p>
             </div>
-        <div class="teal-cursor">
-            <div id="intro">
+        <!--This div tag is setting the cursor to teal-->
+        <div class="teal-cursor" class="section">
+            <!--This div tag is setting up the intro-->
+            <div id="intro" class="section">
+                <!--Underlined header and a little about myself-->
                 <h1><u>About Me</u></h1>
-                <p>Hi! My name is <span id="name">Rachel</span>. I'm an analytical and detail-oriented accountant with a strong background in data analytics. While I lack extensive experience, I make up for it with my coachability and a passion for continuous learning. I am seeking opportunities for professional growth where I can apply my skills and learn from industry leaders.</p><br>
+                <p>Hi! My name is <span id="name">Rachel</span>. I'm an analytical and detail-oriented accountant with a background in data analytics. While I lack extensive experience, I make up for it with my coachability and a passion for continuous learning. I am seeking opportunities for professional growth where I can apply my skills and learn from industry leaders.</p><br>
                 <p>When I'm not practicing coding, I enjoy playing strategy games and creating mods for The Sims 4. These hobbies have enhanced my problem-solving skills and creativity, allowing me to approach challenges with a unique perspective. Additionally, I often spend time with my nephews and nieces when I can. I've been babysitting and an aunt since I was 10, which has taught me patience, responsibility, and the importance of family. Music is an essential part of my life, providing inspiration and relaxation. I also have a deep love for animals and believe in the importance of integrity in all aspects of life.</p><br>
             </div>
         </div>
+        <!--This div tag is setting the cursor to purple-->
         <div class="purple-cursor">
-            <div id="skills">
+            <!--This div tag is setting up the skills section-->
+            <div id="skills" class="section">
                 <h2><u>Skills</u></h2>
+                <!--This unordered list is setting up the skills section-->
                 <ul>
                     <li>Programming Languages
                         <ul>
@@ -87,7 +99,8 @@
                             <li>Conflict Resolution</li>
                             <li>Creativity</li>
                             <li>Critical Thinking</li>
-                            <li>Integrity</li>                            
+                            <li>Customer Service</li>
+                            <li>Decision Making</li>
                             <li>Mentoring</li>
                             <li>Problem Solving</li>
                             <li>Time Management</li>
@@ -96,8 +109,10 @@
                 </ul>
             </div>
         </div>
+        <!--This div tag is setting the cursor to teal-->
         <div class="teal-cursor">
-            <div id="experience">
+            <!--This div tag is setting up the experience section-->
+            <div id="experience" class="section">
                 <h2><u>Experience</u></h2>
                 <h3>Court Accounting Specialist</h3>
                 <p><span id="company">PNC Financial Services</span> | Pittsburgh, PA | April 2024 - Present</p>
@@ -175,17 +190,17 @@
             </div>
         </div>
         <div class="purple-cursor">
-            <div id="education">
+            <div id="education" class="section">
                 <h2><u>Education</u></h2>
                 <h3>Rutgers University Continuing Education</h3>
                 <p>Data Science Bootcamp Certificate | March 2024</p>
             </div>
         </div>
         <div class="teal-cursor">
-            <div id="interests">
+            <div id="interests" class="section">
                 <h2><u>Interests</u></h2>
                     <ul>
-                        <li><b>Games:</b> Strategy Games, Modding The Sims 4, Board Games, Card Games, Video Games</li>
+                        <li><b><a href="games.html" id="removeUnderline">Games:</a></b> Strategy Games, Modding The Sims 4, Board Games, Card Games, Video Games</li>
                         <li><b>Family & Social:</b> Spending Time with Family, Bonfires, Escape Rooms, Traveling</li>
                         <li><b>Creative Hobbies:</b> Arts & Crafts, Coloring, Painting, Furniture Building</li>
                         <li><b>Entertainment:</b> Movies, Shows, Documentaries, Audiobooks, Music, Anime</li>
@@ -196,15 +211,19 @@
             </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </div>
         </div>
         <div class="purple-cursor">
-            <div id="contact">
+            <div id="contact" class="section">
                 <h2><u>Contact</u></h2>
                 <p>Email: <span id="email">bererrm@gmail.com</span></p>
                 <p>Phone: <span id="phone">(412) 216-9683</span></p>
-                <p>LinkedIn: <a href="www.linkedin.com/in/rachel-berer" id="customLink">Rachel Berer</a></p>
+                <p>LinkedIn: <a href="www.linkedin.com/in/rachel-berer" id="hover-cursor">Rachel Berer</a></p>
             </div>
-            <div id="Top">
-                <a href="#menu" id="customLink">Back to Top</a>
+            <div id="Top" class="section">
+                <!--This h1 tag is setting a message-->
+                <h1 id="welcomeMessage">Thank you for visiting!</h1>
+                <!--This anchor tag is linking to the "menu"-->
+                <a href="#menu" id="hover-cursor">Back to Top</a>
             </div>
+
         </div>
     </body>
 </html>
