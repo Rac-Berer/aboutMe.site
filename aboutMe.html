@@ -8,7 +8,7 @@
         <!-- This link tag links the CSS file "aboutMe.css" to the HTML document. -->
         <link rel="stylesheet" href="aboutMe.css">
         <!-- This script tag links the JavaScript file "aboutMe.js" to the HTML document. -->
-        <script src="aboutMe.js"></script>
+        <script src="aboutMe.js" defer></script>
     </head>
     <body>
         <!--This div tag is setting the cursor to purple-->
@@ -192,8 +192,12 @@
         <div class="purple-cursor">
             <div id="education" class="section">
                 <h2><u>Education</u></h2>
-                <h3>Rutgers University Continuing Education</h3>
+                <h3>Rutgers University Continuing Studies</h3>
                 <p>Data Science Bootcamp Certificate | March 2024</p>
+                <a href="https://docs.credentials.rutgers.edu/067c65ba-2af5-4edd-8562-0340dc268f28#acc.snOuFH5D" target="blank" id="hover-cursor">
+                    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/99343530" alt="Certification" width="300" height="200"></a>
+                <a href="https://docs.credentials.rutgers.edu/067c65ba-2af5-4edd-8562-0340dc268f28#acc.snOuFH5D" target="blank" id="hover-cursor">
+                    <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/99343530" alt="badge"></a>
             </div>
         </div>
         <div class="teal-cursor">
@@ -217,13 +221,14 @@
                 <p>Phone: <span id="phone">(412) 216-9683</span></p>
                 <p>LinkedIn: <a href="www.linkedin.com/in/rachel-berer" id="hover-cursor">Rachel Berer</a></p>
             </div>
+        </div>
+        <div class="teal-cursor">
             <div id="Top" class="section">
                 <!--This h1 tag is setting a message-->
-                <h1 id="welcomeMessage">Thank you for visiting!</h1>
+                <h1 id="visitMessage">Thank you for visiting!</h1>
                 <!--This anchor tag is linking to the "menu"-->
                 <a href="#menu" id="hover-cursor">Back to Top</a>
             </div>
-
         </div>
     </body>
 </html>

@@ -119,11 +119,11 @@ body {
 
 /* Link styles */
 a:link {
-    color: purple;
+    color: teal;
 }
 
 a:visited {
-    color: gray;
+    color: purple;
 }
 
 a:hover {

@@ -7,5 +7,7 @@ const senderName = 'Rachel';
 // Insert the sender's name into the HTML element with id "welcomeMessage"
 window.onload = function() {
     // Change the content of the h1 element
-    document.getElementById('welcomeMessage').textContent = 'Thank you for visiting my web page! - ' + senderName;
+    document.getElementById('visitMessage').textContent = 'Thank you for visiting my web page! - ' + senderName;
 };
+
+//
