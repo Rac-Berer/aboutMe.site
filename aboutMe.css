@@ -19,11 +19,13 @@
 /* Remove the underline from the link */
 #removeUnderline {
     text-decoration: none;
+    color: purple;
 }
 
 /* Add hover effect to the link */
 #removeUnderline:hover {
     text-decoration: underline;
+    color: teal;
     cursor: url('https://i.postimg.cc/yNCn5rfn/hover-Star.png'), auto;
 }
 
